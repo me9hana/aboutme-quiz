@@ -1,1 +1,33 @@
-<h1> This is a view </h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About Me Quiz</title>
+    </head>
+    
+    <body>
+        <h1>How well do you know me? - Meghana's Edition</h1>
+        
+        <form method="POST" action="/results">
+            <h2>What is my favorite vegetable?</h2>
+                <input type="radio" name="vegetable" value="0">Radish<br>
+                <input type="radio" name="vegetable" value="5">Broccoli<br>
+                <input type="radio" name="vegetable" value="10">Carrots<br>
+                
+            <h2>What is my favorite animal?</h2>
+                <input type="radio" name="animals" value="0">Cats<br>
+                <input type="radio" name="animals" value="5">Monkeys<br>
+                <input type="radio" name="animals" value="10">Squirrels
+                <input type="radio" name="animals" value="10">Bears<br>
+                
+            <h2>What is my favorite number?</h2>
+                <input type="radio" name="number" value="0">7<br>
+                <input type="radio" name="number" value="5">0<br>
+                <input type="radio" name="number" value="10">9<br>
+                
+            <br>
+            <button type="submit">Check how well you know me!</button>
+        </form>
+        
+    </body>
+    
+</html>
